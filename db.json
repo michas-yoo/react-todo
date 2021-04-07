@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Проверка",
+      "category": 1,
+      "due_date": "03.04.2021",
+      "due_time": "11:00",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "name": "Проверка 2",
+      "category": 2,
+      "due_date": "05.04.2021",
+      "due_time": "12:00",
+      "completed": false
+    },
+    {
+      "name": "Biggus diccus",
+      "completed": true,
+      "dueDate": "2021-04-01",
+      "dueTime": "03:23",
+      "category": 3,
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Работа",
+      "color": "plum"
+    },
+    {
+      "id": 2,
+      "name": "Семья",
+      "color": "tomato"
+    },
+    {
+      "id": 3,
+      "name": "Тест",
+      "color": "gold"
+    }
+  ]
+}

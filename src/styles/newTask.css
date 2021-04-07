@@ -1,0 +1,41 @@
+.btn-link {
+  padding: 0;
+  font-weight: bold;
+}
+
+.newTask__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.newTask__header a:hover, .newTask__header button:hover {
+  text-decoration: none;
+}
+.newTask__form-info span {
+  display: inline-block;
+  margin-right: 20px;
+}
+.newTask__category-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-radius: 8px;
+}
+.newTask__category-item input {
+  width: 5%;
+}
+.newTask__category-info {
+  display: flex;
+  flex-direction: column;
+}
+.newTask__category-name {
+  font-weight: bold;
+}
+
+.additional {
+  color: var(--gray);
+}
+
+/*# sourceMappingURL=newTask.css.map */

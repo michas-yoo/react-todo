@@ -1,0 +1,87 @@
+html {
+  --ui-gray: #EBEFF5;
+  --font-gray: #c4c4c4;
+  --the-blue: #006CFF;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+input[type=checkbox]:checked {
+  filter: grayscale(1);
+}
+input[type=checkbox]:checked + label {
+  color: var(--font-gray);
+  text-decoration: line-through;
+}
+
+.task {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--ui-gray);
+}
+.task .form-group {
+  margin: 0;
+}
+
+.category {
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+}
+.category p {
+  margin: 0;
+}
+
+.addButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.addButton__links {
+  position: absolute;
+  bottom: calc(100% + 20px);
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(19, 28, 41, 0.2);
+  border-radius: 8px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.addButton__link {
+  padding: 20px;
+  font-weight: bold;
+}
+.addButton__link:hover {
+  text-decoration: none;
+}
+.addButton__link:first-child {
+  border-bottom: 1px solid var(--ui-gray);
+}
+.addButton__button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  color: var(--the-blue);
+  font-size: 30px;
+  line-height: 1;
+  box-shadow: 0 10px 30px rgba(19, 28, 41, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+.addButton.open .addButton__links {
+  opacity: 1;
+  visibility: visible;
+}
+.addButton.open .addButton__button {
+  color: white;
+  background-color: var(--the-blue);
+  transform: rotate(-45deg);
+}
+
+/*# sourceMappingURL=App.css.map */
